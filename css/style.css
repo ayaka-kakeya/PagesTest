@@ -1,8 +1,23 @@
-h1 {
-    color:red;
+body{
+    font-family: "Arial","Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo",sans-serif;
 }
 
-button{
+h1 {
+    color:black;
+    font-family:fantasy;
+}
+
+#button{
+    border:1px solid #000;
+    background-color: lightpink;
     width: 10em;
     height: 3em;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: lightblue;
 }
